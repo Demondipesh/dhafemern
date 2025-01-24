@@ -7,6 +7,53 @@
 .form-container{
     border: 2px solid green;
     width: 50;
-    margin: 50px 40px 60px 50px;
+    margin: 319px 214px 280px 328px;
+    text-align: center;
+    padding:136px 71px 83px 67px ;
   
+}
+
+
+.login-text{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: bold;
+    margin: 20px;
+    padding: 6px;
+}
+
+.login-title{
+    font-size: medium;
+    padding: 2px 3px 4px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+input{
+    margin: 8px;
+    padding: 2px 3px 4px 6px;
+
+}
+
+.forget-form{
+
+    color: red;
+    font-size: larger;
+    margin: 8px;
+    padding: 2px 3px 4px 6px;
+}
+
+.submit-form{
+    margin: 36px;
+    padding: 2px 3px 4px 6px;
+    
+
+
 }
