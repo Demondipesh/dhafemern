@@ -9,13 +9,14 @@
     width: 50;
     margin: 319px 214px 280px 328px;
     text-align: center;
-    padding:136px 71px 83px 67px ;
+    padding:21px 67px 58px 91px ;
+    background-color: aqua;
   
 }
 
 
 .login-text{
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
     font-style: bold;
     margin: 20px;
@@ -25,6 +26,7 @@
 .login-title{
     font-size: medium;
     padding: 2px 3px 4px 2px;
+    margin: 2px;
 }
 
 
@@ -45,7 +47,7 @@ input{
 .forget-form{
 
     color: red;
-    font-size: larger;
+    
     margin: 8px;
     padding: 2px 3px 4px 6px;
 }
