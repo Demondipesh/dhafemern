@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.form-container{
+    border: 2px solid green;
+    width: 50;
+    margin: 319px 214px 280px 328px;
+    text-align: center;
+    padding:21px 67px 58px 91px ;
+    background-color: aqua;
+  
+}
+
+
+.login-text{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: bold;
+    margin: 20px;
+    padding: 6px;
+}
+
+.login-title{
+    font-size: medium;
+    padding: 2px 3px 4px 2px;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+input{
+    margin: 8px;
+    padding: 2px 3px 4px 6px;
+
+}
+
+.forget-form{
+
+    color: red;
+    
+    margin: 8px;
+    padding: 2px 3px 4px 6px;
+}
+
+.submit-form{
+    margin: 36px;
+    padding: 2px 3px 4px 6px;
+    
+
+
+}
