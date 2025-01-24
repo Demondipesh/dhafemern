@@ -49,12 +49,11 @@ body {
     font-weight: bold;
   }
 
-  .button.yes {
+  .button-yes {
     background-color: #f9725a; 
     color: white;
+    display: flex;
+    padding: 2px 3px 4px 5px;
   }
 
-  .button.no {
-    background-color: #c2cbd0; /
-    color: white;
-  }
+  
