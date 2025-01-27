@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-.nav{
+.nav {
     background-color: antiquewhite;
     overflow: hidden;
     padding: 20px
-    
 }
+
 .nav a {
     float: left;
     color: black;
@@ -18,27 +18,31 @@
     text-decoration: none;
     font-size: 17px;
 }
-.nav a:hover{
+
+.nav a:hover {
     background-color: brown;
     color: black;
 }
-.nav a.logout{
+
+.nav a.logout {
     float: right;
     background-color: white;
-    
-    
+
+
 }
 
-.content{
-    display:flex ;
-    gap: 35px;
-    border: 2px solid black;
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
     text-align: center;
     font-family: sans-serif;
-    
-  
+
+
 }
-.images{
+
+.images {
 
     border: 2px solid black;
     overflow: hidden;
@@ -46,30 +50,30 @@
     border-radius: 8px;
     padding: 10px;
     margin-top: 30x;
-    
+
 
 }
 
 .images img {
 
-    max-width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
+   width: 100px;
+    height:80px;
+  
+    /* margin-bottom: 10px; */
 }
 
-.images h2{
+.images h2 {
     font-size: 18px;
     margin: auto;
 }
 
-.images p{
+.images p {
     font-size: 16px;
     margin: 5px 0;
     color: #555
 }
 
-.images button{
+.images button {
     border: 1px solid black;
     background-color: green;
     padding: 10px 15px;
@@ -79,23 +83,18 @@
     margin-top: 10px;
 }
 
-.images button:hover{
+.images button:hover {
     color: red;
     background-color: white;
 }
 
 
-.bottom{
+.bottom {
 
     background-color: #555;
-    font-size: 9px ;
+    font-size: 9px;
     text-align: center;
     justify-content: center;
     padding: 70px;
-   
+
 }
-
-
-
-
-
