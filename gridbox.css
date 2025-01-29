@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(1,1fr) ;
+    grid-template-rows: 100px auto 100px;
+    text-align: center;
+    gap: 10px;
+
+    
+    
+}
+.container > div{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+
+
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
+}
+
+
+.bodi{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: skyblue;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: yellow;
+}
+
+
+
