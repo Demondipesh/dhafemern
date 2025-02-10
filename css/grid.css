@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    background-color: aqua;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:100px 100px 200px 100px 500px auto ;
+    border-radius: 20px;
+    height: 100vh;
+    /* gap: 10px; */
+    text-align: center;
+
+
+
+
+}
+
+
+.container > div{
+    border: 2px solid whitesmoke;
+    padding: 15px;
+}
+
+
+.num1{
+    grid-column: 1/7;
+    
+    background-color: blue;
+}
+.num2{
+    grid-column: 7/-1;
+    
+    background-color: blue;
+}
+.num3{
+    grid-column: 1/7;
+    
+    background-color: blue;
+}
+.num4{
+    grid-column: 7/-1;
+    
+    background-color: blue;
+}
+.num5{
+    grid-column: 1/4;
+    
+    background-color: blue;
+}
+.num6{
+    grid-column: 4/7;
+    
+    background-color: blue;
+}
+
+.num7{
+    grid-column:1/-1 ;
+    
+    background-color: blue;
+}
+
+.num8{
+    grid-column: 1/-1;
+    background-color: yellow;
+}
+.num9{
+    grid-column:8/11 ;
+    background-color: yellow;
+}
+.num10{
+    grid-column:8/11 ;
+    background-color: yellow;
+}
+.num11{
+    grid-column:8/11 ;
+    background-color: yellow;
+}
+
+
+
+
+
