@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    min-width: auto;
+    background-color: bisque;
+    flex-direction: column;
+    padding: clamp(20px 500px 60px);
+    
+}
+img{
+    width: 200px;
+    height: auto;
+}
+
+/* @media screen and (max-width: 850px) {
+   .container
+    {
+      background-color: lightgreen;
+      flex-direction: column;
+      padding: ;
+    }
+} */
